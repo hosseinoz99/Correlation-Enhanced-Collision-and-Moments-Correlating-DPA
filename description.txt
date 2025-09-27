@@ -1,0 +1,10 @@
+Correlation-Enhanced Collision (CECA) and Moments-Correlating DPA (MC-DPA)
+bytes: 0 & 5, ROI=150, N_traces_used=256
+Winning Δk (CECA): 0x00
+Winning Δk (MC-DPA): 0x00
+
+Note on dataset mismatch:
+- Provided plaintexts.dat has only 256 records (16×256), while traces file holds 10,000 traces.
+- To remain consistent with the collision model (needs p_i ⊕ p_j), the analysis used ONLY the first 256 traces.
+- With N=256, many Δk subsets are extremely small (often <3), so correlations are weak—plots are produced but key recovery may be inconclusive.
+If full plaintexts (16×10,000) are available, rerun to obtain decisive peaks.

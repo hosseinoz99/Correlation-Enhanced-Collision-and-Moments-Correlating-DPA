@@ -1,0 +1,3 @@
+Δk (byte 0 ⊕ byte 5)
+hex: 00
+dec: 0
